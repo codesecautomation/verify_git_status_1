@@ -4,7 +4,7 @@ provider "aws" {
 
 # Define a large number for the count to force many module instantiations
 variable "num_buckets" {
-  default = 10000 # A high number of iterations causes the slowdown
+  default = 900000000000 # A high number of iterations causes the slowdown
 }
 
 module "s3_buckets" {
